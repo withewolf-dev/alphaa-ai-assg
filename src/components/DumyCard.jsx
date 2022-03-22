@@ -1,5 +1,4 @@
 import React from "react";
-import Circle from "./Circle";
 import DumpyText from "./DumpyText";
 
 export default function DumyCard() {
