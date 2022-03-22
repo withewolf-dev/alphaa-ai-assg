@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import LeftCol from "./components/LeftCol";
+import "./App.css";
+import CenterCol from "./components/CenterCol";
+import RightCol from "./components/RightCol";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex bg-blue-50">
+      <div className="w-2/5 h-screen">
+        <LeftCol />
+      </div>
+      <div className="w-4/5  h-screen">
+        <CenterCol />
+      </div>
+      <div className="w-2/5   h-screen">
+        <RightCol />
+      </div>
     </div>
   );
 }
