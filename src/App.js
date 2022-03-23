@@ -5,7 +5,7 @@ import RightCol from "./components/RightCol";
 
 function App() {
   return (
-    <div className="xl:flex xl:flex-row h-screen bg-blue-50">
+    <div className="xl:flex xl:flex-row  bg-blue-50">
       <div className=" w-[400px]">
         <LeftCol />
       </div>
