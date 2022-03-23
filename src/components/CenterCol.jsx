@@ -5,7 +5,7 @@ import TotalEarning from "./TotalEarning";
 
 export default function CenterCol() {
   return (
-    <div className="flex flex-col md:justify-around py-4 md:h-screen ">
+    <div className="flex flex-col xl:justify-around py-4 xl:h-screen ">
       <Date />
       <Echart />
       <TotalEarning />
