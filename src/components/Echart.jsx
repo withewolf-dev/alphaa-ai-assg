@@ -1,5 +1,6 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
+import "./ReactECharts.css";
 export default function Echart() {
   var xAxisData = [];
   var data1 = [];
@@ -48,9 +49,19 @@ export default function Echart() {
     },
   };
   return (
-    <ReactECharts
-      style={{ width: "900px", height: "600px", margin: "auto" }}
-      option={option}
-    />
+    <>
+      <ReactECharts
+        className="visible md:hidden"
+        style={{ width: "390px", height: "300px", margin: "auto" }}
+        option={option}
+      />
+      <div className="hidden md:block">
+        <ReactECharts
+          //className="hidden md:visible"
+          style={{ width: "900px", height: "600px", margin: "auto" }}
+          option={option}
+        />
+      </div>
+    </>
   );
 }

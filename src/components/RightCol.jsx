@@ -6,7 +6,7 @@ import DumyCard from "./DumyCard";
 
 export default function RightCol() {
   return (
-    <div className="py-4 px-5 flex flex-col justify-between h-screen">
+    <div className="py-7 px-5 flex flex-col justify-between h-screen">
       <Badge />
       <Description />
       <DumpyText />

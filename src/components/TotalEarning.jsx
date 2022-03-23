@@ -3,7 +3,7 @@ import { ShoppingCartIcon } from "@heroicons/react/solid";
 
 export default function TotalEarning() {
   return (
-    <div className="grid grid-cols-3">
+    <div className="md:grid grid-cols-3">
       <div className="flex flex-row items-end ">
         <div className="flex flex-row justify-center items-center space-x-2">
           <div className="h-10 w-10 rounded-lg bg-white flex justify-center items-center">
