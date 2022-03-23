@@ -5,14 +5,14 @@ import RightCol from "./components/RightCol";
 
 function App() {
   return (
-    <div className=" md:flex bg-blue-50">
-      <div className="md:w-2/5 h-screen">
+    <div className=" md:flex bg-blue-50 min-h-screen">
+      <div className="md:w-[450px]">
         <LeftCol />
       </div>
-      <div className="md:w-4/5  h-screen">
+      <div className="md:flex-grow ">
         <CenterCol />
       </div>
-      <div className="md:w-2/5   h-screen">
+      <div className="md:w-[400px]  ">
         <RightCol />
       </div>
     </div>
